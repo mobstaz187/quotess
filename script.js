@@ -20,14 +20,14 @@ soundBtn.addEventListener("click", ()=>{
     speechSynthesis.speak(utterance);
 });
 copyBtn.addEventListener("click", ()=>{
-    navigator.clipboard.writeText("TETE");
+    navigator.clipboard.writeText("GPe1oVd17sK5fJKzUsHQHdJFGEPNEj6icq1uP7xWpump");
 });
 twitterBtn.addEventListener("click", ()=>{
-    let tweetUrl = `x.com`;
+    let tweetUrl = `https://x.com/quotesdaysolana`;
     window.open(tweetUrl, "_blank");
 });
 Telegram.addEventListener("click", ()=>{
-    let telegram = `https://web.telegram.org/`;
+    let telegram = `https://t.me/+eMn2cCdGfEJiNzJl`;
     window.open(telegram, "_blank");
 });
 quoteBtn.addEventListener("click", randomQuote);
